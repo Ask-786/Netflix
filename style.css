@@ -1,30 +1,33 @@
-header{
+header {
     height: 79px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-body{
+
+body {
     margin: 0;
     background-color: rgb(20, 20, 20);
 }
-.innerheader{
+
+.innerheader {
     height: 49.1px;
     width: 1453px;
     position: relative;
     display: flex;
     align-items: center;
 }
-.background1{
+
+.background1 {
     height: 734px;
     width: 100%;
     background-image: url(./Images/Background/IN-en-20220912-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
 }
 
-#selectlanguage{
+#selectlanguage {
     right: 0;
     position: absolute;
     height: 35px;
@@ -35,18 +38,20 @@ body{
     margin-right: 120px;
     border-radius: 3px;
 }
-.loginbutt{
+
+.loginbutt {
     height: 35px;
     width: 85px;
     background-color: red;
     color: white;
     position: absolute;
-    right: 0 ;
+    right: 0;
     border: 0;
     margin-right: 10px;
     border-radius: 3px;
 }
-.introsection{
+
+.introsection {
     height: 344px;
     width: 950px;
     margin-left: 312.59px;
@@ -54,12 +59,13 @@ body{
     margin-top: 240px;
     display: flex;
     flex-direction: column;
-    
+
 }
-.introhead{
+
+.introhead {
     width: 800px;
     height: 140.7px;
-    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 64px;
     font-weight: 700;
     line-height: 70.4px;
@@ -68,10 +74,11 @@ body{
     margin-top: 0;
     margin: 0 auto;
 }
-.anytimeanywhere{
+
+.anytimeanywhere {
     width: 800px;
     margin: 0 auto;
-    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 26px;
     font-weight: 400;
     color: white;
@@ -79,25 +86,28 @@ body{
     margin-top: 16px;
     margin-bottom: 16px;
 }
-.formsection{
+
+.formsection {
     height: 124.683px;
     width: 100%;
 }
-.emailformtitle{
-    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+.emailformtitle {
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 19.2px;
     font-weight: 400;
     color: white;
     text-align: center;
     width: 714.392px;
     margin: 0 auto;
-    
+
 }
-.emailinput{
+
+.emailinput {
     width: 478px;
     height: 58px;
     margin-top: 0px;
-    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 16.2px;
     font-weight: 400;
     padding-left: 10px;
@@ -108,7 +118,8 @@ body{
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
 }
-.getstartedbuttonwithemail{
+
+.getstartedbuttonwithemail {
     height: 60px;
     width: 260px;
     margin-top: 20px;
@@ -117,14 +128,15 @@ body{
     border: 0;
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
-    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 30px;
     font-weight: 400;
     background-color: red;
     color: white;
     cursor: pointer;
 }
-.enjoytvsection{
+
+.enjoytvsection {
     height: 466px;
     width: 100%;
     margin-top: 10px;
@@ -134,31 +146,36 @@ body{
     align-items: center;
     position: relative;
 }
-.enjoytextsec{
+
+.enjoytextsec {
     width: 547.5px;
     height: 179.7px;
     margin-right: 40px;
 }
-.enjoyheader{
-    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+.enjoyheader {
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 50px;
     font-weight: 700;
     color: white;
     margin-top: 0;
 }
-.enjoydiscription{
-    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+.enjoydiscription {
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 26px;
     font-weight: 400;
     color: white;
 }
-.enjoyimgwithanimation{
+
+.enjoyimgwithanimation {
     background-image: url(./Images/tv.png);
     height: 397px;
     width: 530px;
     background-size: cover;
 }
-.downloadsection{
+
+.downloadsection {
     height: 466px;
     width: 100%;
     margin-top: 10px;
@@ -167,18 +184,21 @@ body{
     align-items: center;
     justify-content: center;
 }
-.downloadimgwithanimation{
+
+.downloadimgwithanimation {
     width: 505px;
     height: 379px;
     background-image: url(./Images/mobile-0819.jpg);
     background-size: cover;
     margin-right: 40px;
 }
-.downloadtextsec{
+
+.downloadtextsec {
     width: 547px;
     height: 201px;
 }
-.watchanywheresection{
+
+.watchanywheresection {
     width: 100%;
     height: 535px;
     background-color: black;
@@ -187,18 +207,21 @@ body{
     align-items: center;
     justify-content: center;
 }
-.watchanywheretextsec{
+
+.watchanywheretextsec {
     height: 147px;
     width: 547px;
 }
-.watchanywhereimgwithanimation{
+
+.watchanywhereimgwithanimation {
     height: 416.5px;
     width: 555.5px;
     background-image: url(./Images/device-pile-in.png);
     background-size: cover;
     margin-left: 40px;
 }
-.childrenprofilesection{
+
+.childrenprofilesection {
     width: 100%;
     height: 523px;
     background-color: black;
@@ -208,18 +231,21 @@ body{
     align-items: center;
     justify-content: center;
 }
-.childrenimage{
+
+.childrenimage {
     height: 379px;
     width: 505px;
     background-image: url(./Images/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png);
     background-size: cover;
     margin-right: 40px;
 }
-.childrentextsec{
+
+.childrentextsec {
     height: 234.7px;
     width: 547px;
 }
-.FAQsection{
+
+.FAQsection {
     height: 930.5px;
     width: 100%;
     background-color: black;
@@ -228,31 +254,35 @@ body{
     justify-content: center;
     position: relative;
 }
-.innerFAQ{
+
+.innerFAQ {
     height: 790.2px;
     width: 1475.1px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.FAQheader{
+
+.FAQheader {
     height: 55px;
     width: 100%;
 }
-.FAQheadertext{
-    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+.FAQheadertext {
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 50px;
     font-weight: 700;
     color: white;
     margin-top: 0;
     text-align: center;
 }
-.FAQbuttons{
+
+.FAQbuttons {
     width: 815px;
     height: 75.5px;
     background-color: rgb(48, 48, 48);
     color: white;
-    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 26px;
     font-weight: 400;
     text-align: left;
@@ -261,9 +291,65 @@ body{
     margin-top: 5px;
     padding-right: 20px;
 }
-.formsection1{
+
+.formsection1 {
     height: 124.683px;
     width: 950px;
     margin-top: 90px;
 }
 
+footer {
+    height: 467px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.innerfooter {
+    width: 901px;
+    height: 294px;
+    margin-top: 120px;
+    position: relative;
+}
+.questions{
+    height: 20.5px;
+    width: 100%;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color:rgb(115, 115, 115);
+    margin-bottom: 30px;
+}
+.otherfooteroptions{
+    height: 16.5px;
+    width: 100%;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color:rgb(115, 115, 115);
+}
+.otherfooteroptions{
+    margin-top: 15px;
+    display: flex;
+}
+.otherfooteropttext{
+    cursor: pointer;
+}
+.otherfooteroptsub{
+    height: 100%;
+    width: 25%;
+}
+.languagechangebottom{
+    height: 53.1px;
+    width: 100%;
+    margin-top: 35px;
+}
+#languageselectbottom{
+    height: 100%;
+    width: 132.311px;
+    background-color: black;
+    color: rgb(115, 115, 115);
+}
+.lastone{
+    position: absolute;
+    bottom: 0;
+}
