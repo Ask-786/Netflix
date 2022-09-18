@@ -129,9 +129,6 @@ body{
     width: 100%;
     margin-top: 10px;
     background-color: black;
-    /* display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 0; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,6 +137,7 @@ body{
 .enjoytextsec{
     width: 547.5px;
     height: 179.7px;
+    margin-right: 40px;
 }
 .enjoyheader{
     font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -154,10 +152,30 @@ body{
     font-weight: 400;
     color: white;
 }
-.enjoyimgwithanimationsection{
+.enjoyimgwithanimation{
     background-image: url(./Images/tv.png);
     height: 397px;
     width: 530px;
     background-size: cover;
+}
+.downloadsection{
+    height: 466px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.downloadimgwithanimation{
+    width: 505px;
+    height: 379px;
+    background-image: url(./Images/mobile-0819.jpg);
+    background-size: cover;
+    margin-right: 40px;
+}
+.downloadtextsec{
+    width: 547px;
+    height: 201px;
 }
 
