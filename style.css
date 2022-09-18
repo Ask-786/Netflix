@@ -178,4 +178,24 @@ body{
     width: 547px;
     height: 201px;
 }
+.watchanywheresection{
+    width: 100%;
+    height: 535px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watchanywheretextsec{
+    height: 147px;
+    width: 547px;
+}
+.watchanywhereimgwithanimation{
+    height: 416.5px;
+    width: 555.5px;
+    background-image: url(./Images/device-pile-in.png);
+    background-size: cover;
+    margin-left: 40px;
+}
 
