@@ -219,4 +219,51 @@ body{
     height: 234.7px;
     width: 547px;
 }
+.FAQsection{
+    height: 930.5px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.innerFAQ{
+    height: 790.2px;
+    width: 1475.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.FAQheader{
+    height: 55px;
+    width: 100%;
+}
+.FAQheadertext{
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin-top: 0;
+    text-align: center;
+}
+.FAQbuttons{
+    width: 815px;
+    height: 75.5px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    padding-right: 20px;
+}
+.formsection1{
+    height: 124.683px;
+    width: 950px;
+    margin-top: 90px;
+}
 
