@@ -203,6 +203,58 @@ body {
     background-image: url(./Images/mobile-0819.jpg);
     background-size: cover;
     margin-right: 40px;
+    display: flex;
+    justify-content: center;
+}
+.downloaddemo{
+    width: 327px;
+    height: 100px;
+    margin-top: 250px;
+    border: 2px solid;
+    border-color: rgb(48, 48, 48);
+    border-radius: 12px;
+    background-color: black;
+    display: flex;
+}
+
+.moviecoverpic{
+    margin-left: 12px;
+    margin-top: 8px;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 16px;
+}
+.downloaddemotexts{
+    height: 38px;
+    width: 182px;
+    margin-top: 31px;
+}
+
+.downloaddemotexts1{
+    height: 19px;
+    width: 100%;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.downloaddemotexts2{
+    height: 19px;
+    width: 100%;
+    color: rgb(0, 113, 235);
+    font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14.4px;
+    font-weight: 400;
+    padding-top: 2px;
+}
+.downloadanimation{
+    height: 60px;
+    width: 48px;
+    margin-top: 22px;
+    background-image: url(./Images/download-icon.gif);
+    background-size: cover;
+    background-position: center;
 }
 
 .downloadtextsec {
