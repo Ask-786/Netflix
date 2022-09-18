@@ -173,7 +173,19 @@ body {
     height: 397px;
     width: 530px;
     background-size: cover;
+    z-index: 1;
+    position: relative;
 }
+
+.enjoyvideo{
+    width: 387px;
+    height: 217px;
+    margin-top: 83px;
+    margin-left: 70px;
+    z-index: 0;
+    position: absolute;
+}
+
 
 .downloadsection {
     height: 466px;
