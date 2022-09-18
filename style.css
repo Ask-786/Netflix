@@ -45,4 +45,82 @@ body{
     margin-right: 10px;
     border-radius: 3px;
 }
+.introsection{
+    height: 344px;
+    width: 950px;
+    margin-left: 312.59px;
+    margin-right: 312.59px;
+    margin-top: 240px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.introhead{
+    width: 800px;
+    height: 140.7px;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin: 0 auto;
+}
+.anytimeanywhere{
+    width: 800px;
+    margin: 0 auto;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.formsection{
+    height: 124.683px;
+    width: 100%;
+}
+.emailformtitle{
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    width: 714.392px;
+    margin: 0 auto;
+    
+}
+.emailinput{
+    width: 478px;
+    height: 58px;
+    margin-top: 0px;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16.2px;
+    font-weight: 400;
+    padding-left: 10px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 0;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.getstartedbuttonwithemail{
+    height: 60px;
+    width: 260px;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 590px;
+    border: 0;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
 
