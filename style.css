@@ -7,6 +7,7 @@ header{
 }
 body{
     margin: 0;
+    background-color: rgb(20, 20, 20);
 }
 .innerheader{
     height: 49.1px;
@@ -122,5 +123,41 @@ body{
     background-color: red;
     color: white;
     cursor: pointer;
+}
+.enjoytvsection{
+    height: 466px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+    /* display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.enjoytextsec{
+    width: 547.5px;
+    height: 179.7px;
+}
+.enjoyheader{
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin-top: 0;
+}
+.enjoydiscription{
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+}
+.enjoyimgwithanimationsection{
+    background-image: url(./Images/tv.png);
+    height: 397px;
+    width: 530px;
+    background-size: cover;
 }
 
