@@ -169,11 +169,15 @@ body {
 }
 
 .enjoyimgwithanimation {
-    background-image: url(./Images/tv.png);
     height: 397px;
     width: 530px;
-    background-size: cover;
     z-index: 1;
+    position: relative;
+}
+
+.enjoyouterimage{
+    height: 397px;
+    width: 530px;
     position: relative;
 }
 
@@ -281,11 +285,15 @@ body {
 .watchanywhereimgwithanimation {
     height: 416.5px;
     width: 555.5px;
-    background-image: url(./Images/device-pile-in.png);
-    background-size: cover;
     margin-left: 40px;
     position: relative;
     z-index: 6;
+}
+
+.whatchanywhereouterimage{
+    height: 416.5px;
+    width: 555.5px;
+    position: relative;
 }
 
 .watchanywherevideo{
@@ -293,8 +301,7 @@ body {
     width: 350px;
     margin-left: 100px;
     margin-top: 42px;
-    position: relative;
-    z-index: -1;
+    position: absolute;
 }
 
 .childrenprofilesection {
