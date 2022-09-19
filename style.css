@@ -270,6 +270,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .watchanywheretextsec {
@@ -283,6 +284,17 @@ body {
     background-image: url(./Images/device-pile-in.png);
     background-size: cover;
     margin-left: 40px;
+    position: relative;
+    z-index: 6;
+}
+
+.watchanywherevideo{
+    height: 197.7px;
+    width: 350px;
+    margin-left: 100px;
+    margin-top: 42px;
+    position: relative;
+    z-index: -1;
 }
 
 .childrenprofilesection {
