@@ -257,8 +257,9 @@ body {
     width: 48px;
     margin-top: 22px;
     background-image: url(./Images/download-icon.gif);
-    background-size: cover;
-    background-position: center;
+    background-size: 100%;
+    background-position-x: 50%;
+    background-position-y: 50%;
 }
 
 .downloadtextsec {
