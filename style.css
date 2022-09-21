@@ -105,14 +105,14 @@ body {
 
 .emailinput {
     width: 478px;
-    height: 58px;
+    height: 60px;
     margin-top: 0px;
     font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 16.2px;
     font-weight: 400;
     padding-left: 10px;
     position: absolute;
-    margin-left: 100px;
+    margin-left: 105px;
     margin-top: 20px;
     border: 0;
     border-bottom-left-radius: 3px;
@@ -124,7 +124,7 @@ body {
     width: 260px;
     margin-top: 20px;
     position: absolute;
-    margin-left: 590px;
+    margin-left: 583px;
     border: 0;
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
