@@ -25,6 +25,9 @@ body {
     background-image: url(./Images/Background/IN-en-20220912-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #selectlanguage {
@@ -54,12 +57,9 @@ body {
 .introsection {
     height: 344px;
     width: 950px;
-    margin-left: 312.59px;
-    margin-right: 312.59px;
     margin-top: 240px;
     display: flex;
     flex-direction: column;
-
 }
 
 .introhead {
